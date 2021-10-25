@@ -14,7 +14,13 @@
     color: white;
     text-align: center;
     font-size: 40px;
-    margin-top: 10%;
+    margin-top: 8%;
+}
+
+.navBar{
+    color:white;
+    text-align:center;
+    font-size: 50px;
 }
 
 .display {
@@ -29,10 +35,20 @@
     display: none;
 }
 
-.container {
+.sorting {
     margin: 0 auto;
     margin-top: 20px;
     margin-left: 500;
+    display: flex;
+    
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+.searching{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 190;
     display: flex;
     
     grid-template-columns: 33% 33% 33%;
@@ -78,6 +94,13 @@
 }
 
 
+#leftArrow{
+    background-color: #FF3860;   
+}
+
+#rightArrow{
+    background-color: #FF3860;   
+}
 .controls {
     display: flex;
     flex-direction: row;
